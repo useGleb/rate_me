@@ -1,0 +1,14 @@
+{
+  "name": "demo_rate_me",
+  "version": "1.0.0",
+  "description": "Just a simple rating stuff project to cover all the basics",
+  "main": "index.js",
+  "repository": "git@github.com:genosse17/rate_me.git",
+  "author": "genosse17 <it.gleb.kolosov@gmail.ru>",
+  "license": "MIT",
+  "private": false,
+  "workspaces": [
+    "demo_rate_me_backend",
+    "demo_rate_me_frontend"
+  ]
+}

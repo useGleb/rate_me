@@ -1,0 +1,16 @@
+.comments_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+
+  .comments_button_container {
+    display: flex;
+    justify-content: flex-end;
+
+    .send_button {
+      display: flex;
+      gap: 5px;
+    }
+  }
+}

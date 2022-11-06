@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 6px;
+  height: 40px;
+  cursor: pointer;
+
+  .progress_circle {
+    width: 24px;
+    height: 24px;
+    border: 4px solid white;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    border-color: white transparent white transparent;
+  }
+}

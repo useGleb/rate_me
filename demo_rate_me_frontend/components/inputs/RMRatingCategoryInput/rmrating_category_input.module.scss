@@ -1,0 +1,11 @@
+.rating_category_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .rating_scale {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+  }
+}

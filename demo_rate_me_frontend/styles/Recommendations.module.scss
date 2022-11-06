@@ -1,0 +1,13 @@
+.recommendations_container {
+  display: flex;
+  gap: 5rem;
+  max-width: 70rem;
+  width: 100%;
+
+  .recommendations_list {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+  }
+}

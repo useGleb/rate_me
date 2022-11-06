@@ -1,0 +1,40 @@
+.preview_container {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  gap: 1rem;
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .preview_info_container {
+    width: 100%;
+  }
+
+  .preview_info_header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .image {
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+}

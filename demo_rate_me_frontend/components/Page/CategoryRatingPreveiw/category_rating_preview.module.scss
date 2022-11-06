@@ -1,0 +1,17 @@
+.preview_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .scale {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .general_rating {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
